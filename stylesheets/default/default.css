@@ -1,0 +1,87 @@
+/* @group Paragraph styles */
+
+h1 {
+	font-size: 2em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+}
+h2 {
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+}
+h3 {
+	font-size: 1.16em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p {
+	line-height: 1.3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* @end */
+
+
+body {
+	background-color: #f5f8fa;
+}
+
+.central-container {
+	position: absolute;
+	width: 800px;
+	height: 367px;
+	margin-left: -400px;
+	margin-top: -183px;
+	left: 50%;
+	top: 50%;
+}
+
+.half {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.half a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.half a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.half a:hover {
+	text-decoration: underline;
+}
+
+.half h2 {
+	font-weight: 100;
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.half h3 {
+	margin-top: 40px;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 10px;
+}
+
+.half li, .half p {
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+.half p {
+	margin-top: 40px;
+}
